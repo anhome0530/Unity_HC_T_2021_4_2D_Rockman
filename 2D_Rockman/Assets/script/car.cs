@@ -4,34 +4,62 @@ using UnityEngine;
 
 public class car: MonoBehaviour
 {
+    #region 欄位
+
+
+    #endregion
+
     #region 事件
-    public int number = 1;
-    public bool test = false;
-    public string prop = "紅色藥水";
 
-    // 事件:在特定時間點會被執行的方法
-    // Unity 提供的事件:開始、更新
 
-    // 開始事件執行時間點與次數:播放遊戲後執行一次
-    // 
-    private void Start()
+    #endregion
+
+    #region 方法
+    /// <summary>
+    /// 移動
+    /// </summary>
+    private void Move()
     {
-        
-        // print(任何資料) - 輸出資料到 Console 儀表板上
-        
 
     }
+    /// <summary>
+    /// 跳躍
+    /// </summary>
+    private void Jump()
+    {
 
+    }
+    /// <summary>
+    /// 開槍
+    /// </summary>
+    private void Shot()
+    {
 
+    }
+    /// <summary>
+    /// 受傷
+    /// </summary>
+    private void Hurt()
+    {
+        print("造成的傷害");
+    }
+    /// <summary>
+    /// 死亡
+    /// </summary>
+    /// <returns>是否死亡</returns>
+    private bool Dead()
+    {
+        return false;
+    }
+    /// <summary>
+    /// 吃道具
+    /// </summary>
+    /// <param name="item">道具的名稱</param>
+    private void EatItem(string item)
+    {
+    
+    }
 
-
-
-
-
-
-
-
-
-
-
+    
+    #endregion
 }

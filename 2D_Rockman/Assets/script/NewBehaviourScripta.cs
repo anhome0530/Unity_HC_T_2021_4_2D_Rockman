@@ -92,5 +92,18 @@ public class NewBehaviourScripta : MonoBehaviour
         print("特效:" + effect);
     }
 
+    /// <summary>
+    /// BMI 值計算方法
+    /// </summary>
+    /// <param name="hight">請輸入身高 (單位為公尺)</param>
+    /// <param name="weight">請輸入體重 (單位為公斤)</param>
+    /// <returns></returns>
+    private float BMI(float height, float weight)
+    {
+        return weight / (height * height);
+    }
+
+
+
     #endregion
 }
